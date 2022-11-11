@@ -23,9 +23,9 @@ public class Rectangle
     {
         return width;
     }
-
+        
     public String toString()
     {
-        return "Rectangle with width: " + width + " and height: " + height;
+        return "Rectangle with width: " + width + " and height: " + height + ".\nTherefore, the box has dimensions of " + width + "x" + height;
     }
 }
