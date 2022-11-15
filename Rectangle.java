@@ -9,11 +9,21 @@ public class Rectangle
         height = rectHeight;
     }
     
+    public void setWidth(Rectangle other)
+    {
+        width = other.getWidth();
+    }
+
+    public void setHeight(Rectangle other)
+    {
+        height = other.getHeight();
+    }
+
     public int getPerimeter()
     {
         return (width * 2) + (height * 2);
     }
-    
+
     public int getArea()
     {
         return width * height;
