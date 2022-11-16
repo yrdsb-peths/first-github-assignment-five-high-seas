@@ -41,6 +41,7 @@ public class Rectangle
     
     public String toString()
     {
-        return "Rectangle with width: " + width + " and height: " + height + ".\nTherefore, the box has dimensions of " + width + "x" + height;
+        return "Rectangle with width: " + width + " and height: " + height + 
+        ".\nTherefore, the box has dimensions of " + width + "x" + height;
     }
 }
